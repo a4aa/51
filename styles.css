@@ -1,0 +1,58 @@
+html {
+	font-family: comic sans ms;
+}
+
+.menu {
+	/* add correct code to place the menu correctly.*/
+	display: flex;
+	justify-content: space-evenly;
+	background-color: black;
+	font-size: 30px;
+	font-family: sans-serif;
+	font-weight: 400;
+	color: white;
+}
+
+body {
+	background-color: whitesmoke;
+}
+
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+	font-family: sans-serif;
+	justify-content: space-evenly;
+	text-shadow: 1px 1px 2px greenyellow;
+	font-weight: 200%;
+}
+
+.main-info {
+	padding-left: 2%;
+	border: solid green 2px;
+	border-radius: 2%;
+}
+
+.grid img {
+	border: .5px solid blue;
+	border-radius: 20%;
+}
+
+.origami {
+	border-radius: 20px;
+	background-color: white;
+	margin: 20px;
+	width: 310px;
+	font-family: fantasy;
+}
+
+a {
+	color: red;
+}
+
+.language {
+	width: 400px;
+	border: solid transparent 1px;
+	border-radius: 5%;
+	background-color: rgb(243, 240, 227);
+	box-shadow: 10px 10px rgb(150, 150, 150);
+}
